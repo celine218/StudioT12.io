@@ -176,6 +176,7 @@ nav a:hover{
     font-weight: 700;
 }
 
+
 .banner-area{
     background-image: url(images/StaticGif.gif);
     background-size: cover; 
@@ -248,7 +249,7 @@ nav a:hover{
 }
 
 .content-area{ 
-    height: 1000px; 
+    height: relative; 
     position: relative; 
     background: black;
     top: 300px; 
@@ -279,6 +280,7 @@ nav a:hover{
     float: left;
     margin-left: 200px;
     margin-right: auto;
+    margin-bottom: 50px;
     width: 15%;
     height: 10%;
     font-size: 30px;
@@ -315,6 +317,7 @@ nav a:hover{
     float: left;
     padding:0;
      margin:0;
+    margin-left: 30px;
 }
 
 .BlogBigLetter
@@ -323,8 +326,8 @@ nav a:hover{
     padding: 0px; 
     margin: 0px;
     color: green; 
-    float: center;
-    margin-left: 200px;
+    float: left;
+    margin-left: 50px;
 }
 
 .BlogSmallLetter 
@@ -332,7 +335,8 @@ nav a:hover{
     font-size: 30px; 
     padding: 0px; 
     margin: 20px;
-    float: right;
+    margin-left: 50px; 
+    float: left;
 }
 
 .BlogSmallerLetter 
@@ -345,6 +349,7 @@ nav a:hover{
     position: absolute;
     margin-left: 10px;
     opacity: 70%;
+    margin-right: 20px;
 }
 
 .BlogImageLeft 
@@ -352,7 +357,8 @@ nav a:hover{
     float: left; 
     height: 300px; 
     Width: 300px; 
-    padding-left: 300px;
+    padding-left: 200px;
+    padding-right: 100px;
     display: inline-block;
 }
 
@@ -531,6 +537,39 @@ nav a:hover{
     background-color: limegreen; 
     text-decoration: none;
 }
+
+
+.footer{
+    background-color: green;
+    color: green; 
+    display: block;
+}
+
+.footerDesc{
+    float: left;
+    font-size: 20px; 
+    padding: 20px; 
+    position: relative;
+    display: inline-block; 
+    
+}
+
+.footerRight{
+    float: right;
+    color: white;
+    font-size: 20px; 
+    padding: 30px; 
+    position: relative;
+    display: inline-block; 
+}
+
+.fa-instagram{
+    color: white; 
+    float: center;
+    position: relative;
+    display: inline-block;
+}
+
 
 
 
