@@ -336,6 +336,7 @@ nav a:hover{
     padding: 0px; 
     margin: 5px;
     float: left;
+    display: inline-block;
 }
 
 .left
