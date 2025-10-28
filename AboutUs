@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <link rel="stylesheet" type="text/css" href="homeBackground.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+        
+    <div class = "box-area"> 
+      <header>     
+            <div>
+                 <img class="Iconimg" src="images/StudioT12Transparent.png">
+            </div>
+             <nav class="nav nav-pills">
+              <a class="nav-item nav-link animated fadeInDown" href = "#"> Home </a>
+              <a class="nav-item nav-link animated fadeInDown" href = "#"> Blog </a>
+              <a class="nav-item nav-link animated fadeInDown" href = "#"> About </a>
+              
+          </nav>
+        </header> 
+        </div>
+      <div class = "banner-area">
+          <h2> Welcome to Studio T12</h2>
+
+      </div>
+      
+      <div class = "content-area">
+          <div class = "wrapper"> 
+              <h2> About Us </h2>
+              <p>Studio T12 is an indie game developer based in California. Founded in 2025, we set out to create narrative games with immersive environments and uniquely spooky experiences. <p>In October 2025, Studio T12 premiered with a demo of "Silent Numbers", an ongoing project that is still in development.</p>
+           
+          </div>
+          <hr>
+          <div>
+              <img class="blogImg" src="images/BlogPost.png" style = 'float: left'>
+          </div>
+      </div>        
+
+</body>
+    
+</html>

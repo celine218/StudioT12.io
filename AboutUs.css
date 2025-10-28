@@ -1,0 +1,257 @@
+html{
+    height: 100%; 
+}
+
+body {
+    background: black;
+    background-repeat: no-repeat;
+    font-family: "Monaco";
+    margin: 0%;
+    height: 100%; 
+    
+    } 
+
+  
+  
+div{
+    text-align:center;
+     
+}
+
+p {
+    font-size:30px;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.circle {
+    border-radius: 2000px;
+    background-color: transparent;
+}
+
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+} 
+
+h1 {
+    color:white;
+    font-size: 40px;
+}
+
+h2 {
+    color: white;
+    font-size: 60px;
+}
+
+h3 {
+    color: white;
+    font-size: 50px;
+    margin-top: 400px;
+}
+
+h4 {
+    color: white;
+    font-size: 50px;
+}
+
+h5 {
+    color: white;
+    font-size: 30px;
+}
+
+.store_backing {
+    margin-right: 500px;
+    margin-left: 500px;
+    background: linear-gradient(green) 
+
+}
+
+
+.slow {
+    animation-delay: .25s;
+}
+.slow2{ 
+    animation-delay: 1s;
+}
+
+.logo {
+    margin:30px;
+} 
+
+.round-corners { 
+    border-radius: 50px;
+}
+
+.small_paragraph {
+    font-size: 30;
+}
+
+.store_button {
+    margin: 30px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    width: 0%;
+    height: 20%;
+    font-size: 20px;
+} 
+
+    
+
+.white_text {
+    color:white;
+    font-size: 30px; 
+}
+
+.white_text_small {
+    color:white;
+    font-size: 20px; 
+}
+
+.black_text 
+{
+    color:black;
+}
+
+
+.wrapper{
+    width: 90%; 
+    margin: 0 auto;
+}
+
+header{
+    
+    width: 100%;
+    height: 100px;
+    background: green;
+    position: fixed; 
+}
+
+
+.logo{
+    width: 30%; 
+    float: left; 
+    text-align: left; 
+    line-height: 20px; 
+}
+
+.logo a{ 
+    text-decoration: none; 
+    font-size: 30px; 
+    color: white;
+    letter-spacing: 3px;  
+}
+
+nav {
+    float: right; 
+    line-height: 100px; 
+}
+
+nav a{ 
+    text-decoration: none; 
+    letter-spacing: 3px; 
+    font-size: 20px; 
+    color: white;
+    padding: 40px 10px; 
+    margin: 0 1px;
+    font-weight: 500;
+    
+}
+
+nav a:hover{
+    background: white; 
+    color: black; 
+    font-weight: 700;
+}
+
+.banner-area{
+    background-image: url(images/StudioT12_LinkedInBanner.png);
+    background-size: cover;
+    background-position: center center; 
+    top: 100px; 
+    height: 30vh; 
+    width: 90%;
+    position: fixed;
+    
+}
+
+\
+.banner-area h2{ 
+    padding-top: 4%;
+    font-size: 80px; 
+    color: white; 
+}
+
+.banner-area h1{ 
+    font-size: 80px; 
+    color: white; 
+}
+
+.content-area{
+    width: 100%; 
+    height: 800px; 
+    position: relative; 
+    background: black;
+    top: 400px; 
+
+}
+
+.content-area h2{ 
+    font-size: 40px; 
+    margin: 0; 
+    margin-left: 50;
+    padding-top: 30px; 
+    letter-spacing: 4px;
+}
+
+.content-area p{
+    padding: 2% 0; 
+    line-height: 35px; 
+    text-align: center; 
+    
+}
+
+.button 
+{
+    color: black; 
+    border-radius: 40px; 
+    text-align: center; 
+}
+
+.Iconimg { 
+    display: inline-block; 
+    height:100px; 
+    width:100px; 
+    border-radius:100%; 
+    float: left;
+    padding:0;
+    margin:0;
+}
+
+.blogImg { 
+    display: inline-block; 
+    height: 500px; 
+    width: 500px;  
+    float: left;
+    padding:200px;
+    margin:0;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
