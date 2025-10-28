@@ -385,7 +385,6 @@ nav a:hover{
     padding: 20px; 
     margin: 0px;
     color: green; 
-    float: left;
     margin-left: 150px;
     margin-right: 150px;
   
@@ -418,11 +417,9 @@ nav a:hover{
 
 .MainBlogImageLeft 
 {
-    float: left; 
+    float: center; 
     height: 300px; 
     Width: 300px; 
-    padding-left: 200px;
-    padding-right: 100px;
     display: inline-block;
     
 }
