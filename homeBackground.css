@@ -342,6 +342,8 @@ nav a:hover{
 .left
 {
     float: left; 
+    margin-right: auto; 
+    position: relative;
 }
 
 
