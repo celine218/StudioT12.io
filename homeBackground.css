@@ -324,7 +324,6 @@ nav a:hover{
     margin: 0px;
     color: green; 
     float: center;
-    margin-left: 50px;
 }
 
 .BlogSmallLetter 
@@ -332,7 +331,7 @@ nav a:hover{
     font-size: 30px; 
     padding: 0px; 
     margin: 0px;
-    color: green; 
+    color: white; 
     float: center;
     margin-left: 50px; 
 }
