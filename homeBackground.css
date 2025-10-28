@@ -275,7 +275,7 @@ nav a:hover{
    display: block;
     position: relative;
     padding: 15px 15px;
-    float: left;
+    float: center;
     margin-left: 200px;
     margin-right: auto;
     margin-bottom: 50px;
@@ -324,7 +324,7 @@ nav a:hover{
     padding: 0px; 
     margin: 0px;
     color: green; 
-    float: left;
+    float: center;
     margin-left: 50px;
 }
 
@@ -334,9 +334,8 @@ nav a:hover{
     padding: 0px; 
     margin: 0px;
     color: green; 
-    float: left;
-    margin-left: 50px;
-    display: flex;  
+    float: center;
+    margin-left: 50px; 
 }
 
 .left
@@ -362,7 +361,7 @@ nav a:hover{
 
 .BlogImageLeft 
 {
-    float: left; 
+    float: center; 
     height: 300px; 
     Width: 300px; 
     padding-left: 200px;
@@ -376,6 +375,7 @@ nav a:hover{
 
 .container 
 {
+    float: center;
     margin-top: 40px;
     display:grid; 
     grid-template-columns: 100% 100px; 
