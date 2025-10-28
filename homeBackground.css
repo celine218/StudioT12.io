@@ -334,7 +334,8 @@ nav a:hover{
 {
     font-size: 30px; 
     padding: 0px; 
-    margin: 20px; 
+    margin: 20px;
+    margin-right: 50px; 
     float: left;
 }
 
