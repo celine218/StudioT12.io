@@ -25,6 +25,13 @@ p {
     clear: both; 
 }
 
+p a {
+    font-size:30px;
+    color: white;
+    clear: both; 
+    text-decoration: none;
+}
+
 
 .circle {
     border-radius: 2000px;
@@ -571,6 +578,15 @@ nav a:hover{
     display: inline-block;
 }
 
+form { 
+margin: 100 auto; 
+margin-top: 400px;
+margin-left: 400px; 
+margin-right: 400px; 
+float: center; 
+position: absolute;
+width:250px;
+}
 
 
 
