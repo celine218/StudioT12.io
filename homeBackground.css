@@ -334,16 +334,15 @@ nav a:hover{
 {
     font-size: 30px; 
     padding: 0px; 
-    margin: 20px;
+    margin: 0px;
     float: left;
-    margin-right: 50px; 
+    margin-left: 50px; 
 }
 
 .left
 {
     float: left; 
     margin-right: auto; 
-    position: relative;
 }
 
 
