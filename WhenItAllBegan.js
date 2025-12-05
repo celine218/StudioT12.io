@@ -1,4 +1,4 @@
-var password = "2036";
+var password = "2034";
 function passcheck () {
 if(document.getElementById('pass1').value != password) {
     alert('When it all began...'); 
