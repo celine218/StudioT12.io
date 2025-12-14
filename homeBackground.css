@@ -292,6 +292,7 @@ nav a:hover{
     background-color: green;
     color: white;
     text-decoration: none;
+    overflow: hidden;
 }
 
 .button:hover
@@ -309,6 +310,7 @@ nav a:hover{
     background-color: limegreen;
     color: black;
     text-decoration: none;
+    overflow: hidden;
 }
     
 
