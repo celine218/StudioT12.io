@@ -48,9 +48,9 @@ p a {
     text-align: center;
 } 
 
-h1 {
+.hero h1 {
     color:white;
-    font-size: 40px;
+    font-size: 80px;
 }
 
 h2 {
@@ -139,17 +139,25 @@ h5 {
 header{
     
     width: 100%;
-    height: 100px;
-    background: green;
+    height: 80px;
+    background: transparent;
     position: fixed; 
+    z-index: 1000;   /* THIS is the key line */
+    align-items: center; 
+
 }
 
+header:after{
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
 
 .logo{
     width: 30%; 
     float: left; 
     text-align: left; 
-    line-height: 20px; 
+    line-height: auto; 
 }
 
 .logo a{ 
@@ -162,6 +170,10 @@ header{
 nav {
     float: right; 
     line-height: 100px; 
+}
+
+.nav-item.nav-link {
+  opacity: 0;
 }
 
 nav a{ 
@@ -181,7 +193,6 @@ nav a:hover{
     font-weight: 700;
 }
 
-
 .banner-area{
     background-image: url(images/JadaGif.gif);
     background-size: cover; 
@@ -194,6 +205,77 @@ nav a:hover{
 .banner-area:after{
     content: ''; 
     position: absolute; 
+    top: 0; 
+    left: 0; 
+    display: black; 
+    width: 100%; 
+    height: 100%; 
+    background: black; 
+    opacity: .3; 
+    z-index: -1; 
+}
+
+.hero{
+    background-image: url(images/JadaGif.gif);
+    background-size: cover; 
+    background-position: center -205px; 
+    width: 100%; 
+    position: fixed; 
+    height: 100vh; 
+    position:absolute; 
+    display: flex;   
+    align-items: center;      /* vertical centering */
+    justify-content: center;  /* horizontal centering */
+
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;          /* above hero::after */
+  text-align: center;
+  color: white;
+
+  padding: 32px 48px;
+  border-radius: 40px; /* your rounded look */
+}
+
+/* Haze halo behind the text */
+.hero-content::before {
+  content: "";
+  position: absolute;
+  inset: -50px -250px;        /* how far the haze extends past the text */
+  border-radius: 200px; /* should be >= hero-content radius */
+  z-index: -1;         /* behind text, but within hero-content */
+  pointer-events: none;
+
+  /* frosted glass */
+  background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  /* radial fade (mask reveals the frosted layer) */
+-webkit-mask-image: radial-gradient(
+  ellipse 95% 55% at 50% 50%,
+  rgba(0,0,0,1)    0%,
+  rgba(0,0,0,1)   22%,
+  rgba(0,0,0,0.5) 38%,
+  rgba(0,0,0,0.15)50%,
+  rgba(0,0,0,0)   60%
+);
+mask-image: radial-gradient(
+  ellipse 95% 55% at 50% 50%,
+  rgba(0,0,0,1)    0%,
+  rgba(0,0,0,1)   22%,
+  rgba(0,0,0,0.5) 38%,
+  rgba(0,0,0,0.15)50%,
+  rgba(0,0,0,0)   60%
+)
+}
+
+.hero:after{
+    content: ''; 
+    position: absolute; 
+    align-items: center; 
     top: 0; 
     left: 0; 
     display: black; 
@@ -257,7 +339,7 @@ nav a:hover{
     height: relative; 
     position: relative; 
     background: black;
-    top: 300px; 
+    top: 100vh; 
     padding-top: 5%;
 
 }
@@ -273,7 +355,7 @@ nav a:hover{
  .content-area p{
     padding: 2% 0; 
     line-height: 35px; 
-    text-align: center; 
+
     
 } 
 
@@ -285,14 +367,12 @@ nav a:hover{
     float: center;
     margin-right: auto;
     margin-bottom: 50px;
-    width: 15%;
-    height: 5%;
     font-size: 30px;
     border-radius: 20px;
     background-color: green;
     color: white;
     text-decoration: none;
-    overflow: hidden;
+
 }
 
 .button:hover
@@ -303,14 +383,12 @@ nav a:hover{
     float: center;
     margin-right: auto;
     margin-bottom: 50px;
-    width: 15%;
     height: 5%;
     font-size: 30px;
     border-radius: 20px;
     background-color: limegreen;
     color: black;
     text-decoration: none;
-    overflow: hidden;
 }
     
 
@@ -342,8 +420,6 @@ nav a:hover{
     padding: 0px; 
     margin: 0px;
     color: white; 
-    float: center;
-    margin-left: 50px; 
 }
 
 .left
@@ -357,21 +433,18 @@ nav a:hover{
 .BlogSmallerLetter 
 {
     font-size: 20px;
-    text-align: left;
-    padding: 0px; 
-    margin: 0px;
-    float: left;
-    position: absolute;
-    margin-left: 10px;
-    opacity: 70%;
-    margin-right: 20px;
+    
+    top: 15%; 
+
+    margin: 0; 
+    
+
 }
 
 .BlogImageLeft 
 {
-    float: center; 
-    height: 300px; 
-    Width: 300px; 
+    height: auto; 
+    Width: 500px; 
     display: inline-block;
 }
 
@@ -382,10 +455,44 @@ nav a:hover{
 
 .container 
 {
-    float: center;
+    align-items: center; 
     margin-top: 40px;
     display:grid; 
     grid-template-columns: 100% 100px; 
+    display: flex; 
+}
+
+.blog-container 
+{
+    justify-content: center;
+    margin-top: 40px;
+    display:flex; 
+    grid-template-columns: 100% 100px; 
+    align-self: center;
+    width: 100%;
+    position: relative; 
+
+    
+}
+
+.aligner {
+  display: flex;
+  align-items: center;    /* top-align so text starts above image */
+  gap: 28px;                  /* space between image and text */
+}
+.lalign_text {
+  vertical-align: center;
+  flex: 1 1 auto;
+  min-width: 0;   
+  text-align: left;         /* IMPORTANT: prevents weird overflow */
+  align-items: left; 
+}
+
+.ralign_text {
+  flex: 1 1 auto;
+  min-width: 0;   
+  text-align: right;         /* IMPORTANT: prevents weird overflow */
+  align-items: right; 
 }
 
 .MainBlogBigLetter
