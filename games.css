@@ -1,0 +1,598 @@
+@ -1,251 +1,250 @@
+html{
+    height: 100%; 
+}
+
+body {
+    background: black;
+    background-repeat: no-repeat;
+    font-family: "Monaco";
+    margin: 0%;
+    height: 100%; 
+    
+    } 
+
+  
+  
+div{
+    text-align:center;
+     
+}
+
+p {
+    font-size:30px;
+    color: white;
+    clear: both; 
+}
+
+p a {
+    font-size:30px;
+    color: white;
+    clear: both; 
+    text-decoration: none;
+}
+
+
+.circle {
+    border-radius: 2000px;
+    background-color: transparent;
+}
+
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+} 
+
+h1 {
+    color:white;
+    font-size: 40px;
+}
+
+h2 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: forestgreen;
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+h4 {
+    color: white;
+    font-size: 50px;
+}
+
+h5 {
+    color: white;
+    font-size: 30px;
+}
+
+.store_backing {
+    margin-right: 500px;
+    margin-left: 500px;
+    background: linear-gradient(green) 
+
+}
+
+
+.slow {
+    animation-delay: .25s;
+}
+.slow2{ 
+    animation-delay: 1s;
+}
+
+.logo {
+    margin:30px;
+} 
+
+.round-corners { 
+    border-radius: 50px;
+}
+
+.small_paragraph {
+    font-size: 30;
+}
+
+.store_button {
+    margin: 30px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    width: 0%;
+    height: 20%;
+    font-size: 20px;
+} 
+
+    
+
+.white_text {
+    color:white;
+    font-size: 30px; 
+}
+
+.white_text_small {
+    color:white;
+    font-size: 20px; 
+}
+
+.black_text 
+{
+    color:black;
+}
+
+
+.wrapper{
+    width: 90%; 
+    margin: 0 auto;
+}
+
+header{
+    
+    width: 100%;
+    height: 100px;
+    background: green;
+    position: fixed; 
+}
+
+
+.logo{
+    width: 30%; 
+    float: left; 
+    text-align: left; 
+    line-height: 20px; 
+}
+
+.logo a{ 
+    text-decoration: none; 
+    font-size: 30px; 
+    color: white;
+    letter-spacing: 3px;  
+}
+
+nav {
+    float: right; 
+    line-height: 100px; 
+}
+
+nav a{ 
+    text-decoration: none; 
+    letter-spacing: 3px; 
+    font-size: 20px; 
+    color: white;
+    padding: 40px 10px; 
+    margin: 0 1px;
+    font-weight: 500;
+    
+}
+
+nav a:hover{
+    background: white; 
+    color: black; 
+    font-weight: 700;
+}
+
+
+.banner-area{
+    background-image: url(images/JadaGif.gif);
+    background-size: cover; 
+    background-position: center center; 
+    top: 100px; 
+    width: 100%; 
+    position: fixed; 
+}
+
+.banner-area:after{
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    display: black; 
+    width: 100%; 
+    height: 100%; 
+    background: black; 
+    opacity: .3; 
+    z-index: -1; 
+}
+
+.demobanner-area{
+    background-image: url(images/SilentNumbersTitle.png);
+    background-size: cover;
+    background-position: center center; 
+    top: 100px; 
+    height: 30vh; 
+    width: 90%;
+    margin-left: 100px;
+    position: fixed;
+    
+}
+
+.studiobanner-area{
+    background-image: url(images/StudioT12_LinkedInBanner.png);
+    background-size: cover;
+    background-position: center center; 
+    top: 100px; 
+    height: 30vh; 
+    width: 90%;
+    margin-left: 100px;
+    position: fixed;
+    
+}
+
+
+\
+.demobanner-area h2{ 
+    padding-top: 4%;
+    font-size: 80px; 
+    color: white; 
+}
+
+.demobanner-area h1{ 
+    font-size: 80px; 
+    color: white; 
+}
+
+
+.banner-area h2{ 
+    padding-top: 4%;
+    font-size: 80px; 
+    color: white; 
+}
+
+.banner-area h1{ 
+    font-size: 80px; 
+    color: white; 
+}
+
+.content-area{ 
+    height: relative; 
+    position: relative; 
+    background: black;
+    top: 300px; 
+    padding-top: 5%;
+
+}
+
+.content-area h2{ 
+    font-size: 40px; 
+    margin: 0; 
+    margin-left: 50;
+    padding-top: 30px; 
+    letter-spacing: 4px;
+}
+
+ .content-area p{
+    padding: 2% 0; 
+    line-height: 35px; 
+    text-align: center; 
+    
+} 
+
+.button 
+{
+   display: inline-block;
+    position: relative;
+    padding: 15px 15px;
+    float: center;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 15%;
+    height: 5%;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.button:hover
+{
+    display: inline-block;
+    position: relative;
+    padding: 15px 15px;
+    float: center;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 15%;
+    height: 5%;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: limegreen;
+    color: black;
+    text-decoration: none;
+    overflow: hidden;
+}
+    
+
+
+.Iconimg { 
+    display: inline-block; 
+    height:100px; 
+    width:100px; 
+    border-radius:100%; 
+    float: left;
+    padding:0;
+     margin:0;
+    margin-left: 30px;
+}
+
+.BlogBigLetter
+{
+    font-size: 50px; 
+    padding: 0px; 
+    margin: 0px;
+    color: green; 
+    float: center;
+}
+
+.BlogSmallLetter 
+{
+    font-size: 30px;
+    box-sizing: border-box;
+    padding: 0px; 
+    margin: 0px;
+    color: white; 
+    float: center;
+    margin-left: 50px; 
+}
+
+.left
+{
+    float: left; 
+    margin-right: auto; 
+}
+
+
+
+.BlogSmallerLetter 
+{
+    font-size: 20px;
+    text-align: left;
+    padding: 0px; 
+    margin: 0px;
+    float: left;
+    position: absolute;
+    margin-left: 10px;
+    opacity: 70%;
+    margin-right: 20px;
+}
+
+.BlogImageLeft 
+{
+    float: center; 
+    height: 300px; 
+    Width: 300px; 
+    display: inline-block;
+}
+
+.blogDiv
+{
+    padding-top: 200px; 
+}
+
+.container 
+{
+    align-items: center; 
+    margin-top: 40px;
+    display:grid; 
+    grid-template-columns: 100% 100px; 
+  
+}
+
+.MainBlogBigLetter
+{
+    font-size: 50px; 
+    padding: 20px; 
+    margin: 0px;
+    color: green; 
+    margin-left: 150px;
+    margin-right: 150px;
+  
+    text-align: right;
+}
+
+.MainBlogSmallLetter 
+{
+    font-size: 30px; 
+    padding: 0px; 
+    margin: 30px;
+    margin-left: 20px;
+    text-align: left;
+
+
+}
+
+.MainBlogSmallerLetter 
+{
+    font-size: 20px;
+    text-align: left;
+    padding: 0px; 
+    margin: 0px;
+    float: left;
+    position: absolute;
+    margin-left: 150px;
+    opacity: 70%;
+    display: inline-block; 
+}
+
+.MainBlogImageLeft 
+{
+    float: center; 
+    height: 300px; 
+    Width: 300px; 
+    display: inline-block;
+    
+}
+
+.MainBlogImageRight
+{
+    float: left; 
+    height: 600px; 
+    Width: 600px; 
+    padding-left: 200px;
+    padding-right: 100px;
+    display: inline-block;
+    
+}
+
+.MainblogDiv
+{
+    padding-top: 200px; 
+}
+
+/*.container 
+{
+    display:grid; 
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    grid-template-columns 100px 100px 100px 100px 100px 100px;
+    
+}*/
+
+.item {
+  padding: 0.5em;
+  background-color: #fb7185;
+  font-weight: 700;
+  color: var(--clr-light);
+  border: 10px solid var(--clr-accent);
+}
+
+.item1 
+{
+    grid-row: 1; 
+    grid-column: 1; 
+}
+
+.item2 
+{
+    grid-row: 1; 
+    grid-column: 2; 
+}
+
+.item3 
+{
+    grid-row: 1; 
+    grid-column: 3; 
+}
+    
+
+.buttonGame 
+{
+   display: block;
+    position: relative;
+    padding: 15px 15px;
+    float: left;
+    margin-left: 300px;
+    margin-right: auto;
+    width: 15%;
+    height: 5%;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+.buttonGame:hover
+{
+    display: block;
+    position: relative;
+    float: left;
+    margin-left: 300px;
+    margin-right: auto;
+    width: 15%;
+    height: 5%;
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    background-color: limegreen; 
+    text-decoration: none;
+}
+
+.buttonCenter 
+{
+   display: inline-block;
+    position: relative;
+    padding: 15px 15px;
+    float: center;
+    width: 15%;
+    height: 5%;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+.buttonCenter:hover
+{
+    display: inline-block;
+    position: relative;
+    float: center;
+    margin-right: auto;
+    width: 15%;
+    height: 5%;
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    background-color: limegreen; 
+    text-decoration: none;
+}
+
+
+.footer{
+    background-color: green;
+    color: green; 
+    display: block;
+}
+
+.footerDesc{
+    float: left;
+    font-size: 20px; 
+    padding: 20px; 
+    position: relative;
+    display: inline-block; 
+    
+}
+
+.footerRight{
+    float: right;
+    color: white;
+    font-size: 20px; 
+    padding: 30px; 
+    position: relative;
+    display: inline-block; 
+}
+
+.fa-instagram{
+    color: white; 
+    float: center;
+    position: relative;
+    display: inline-block;
+}
+
+
+form { 
+margin: 0 auto; 
+margin-top: 200px; 
+width:250px;
+}
+
+
+
+
+
+
+
+  
