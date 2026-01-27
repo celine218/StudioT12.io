@@ -9,12 +9,13 @@
     background-size: cover; 
     background-position: center -205px; 
     width: 100%; 
-    position: fixed; 
     height: 100vh; 
     position:absolute; 
     display: flex;   
     align-items: center;      /* vertical centering */
     justify-content: center;  /* horizontal centering */
+    overflow:hidden; 
+    background-repeat: no-repeat;
 
 }
 
