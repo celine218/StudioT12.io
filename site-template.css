@@ -264,3 +264,61 @@ nav a:hover{
   max-width: 100%;          /* responsive */
   height: auto;     
 }
+
+.MainBlogBigLetter
+{
+    font-size: 50px; 
+    padding: 20px; 
+    margin: 0px;
+    color: green; 
+    margin-left: 150px;
+    margin-right: 150px;
+  
+    text-align: right;
+}
+
+.MainBlogSmallLetter 
+{
+    font-size: 30px; 
+    padding: 0px; 
+    margin: 30px;
+    margin-left: 20px;
+    text-align: left;
+
+
+}
+
+.MainBlogSmallerLetter 
+{
+    font-size: 20px;
+    text-align: left;
+    padding: 0px; 
+    margin: 0px;
+    position: absolute;
+    margin-left: 150px;
+    opacity: 70%;
+    display: inline-block; 
+}
+
+.MainBlogImageLeft 
+{
+    height: 300px; 
+    Width: 300px; 
+    display: inline-block;
+    
+}
+
+.MainBlogImageRight
+{
+    height: 600px; 
+    Width: 600px; 
+    padding-left: 200px;
+    padding-right: 100px;
+    display: inline-block;
+    
+}
+
+.MainblogDiv
+{
+    padding-top: 200px; 
+}
