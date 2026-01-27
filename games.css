@@ -20,9 +20,7 @@ h2 {
     background-image: url(images/JadaGif.gif);
     background-size: cover; 
     background-position: center center; 
-    top: 100px; 
     width: 100%; 
-    position: absolute; 
     
 }
 
@@ -40,12 +38,12 @@ h2 {
 }
 
 .content-area{ 
-    height: relative; 
     position: relative; 
     background: black;
-    top: 300px; 
     padding-top: 5%;
-
+    height:auto; 
+    overflow: auto; 
+    display:flow-root; 
 }
 
 .content-area h2{ 
