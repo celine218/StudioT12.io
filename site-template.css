@@ -51,7 +51,6 @@ h2 {
 h3 {
     color: white;
     font-size: 50px;
-    margin-top: 400px;
 }
 
 h4 {
@@ -68,6 +67,7 @@ header{
     
     width: 100%;
     height: 80px;
+    top: 0; left: 0; 
     background: transparent;
     position: fixed; 
     z-index: 1000;   /* THIS is the key line */
@@ -90,6 +90,11 @@ header{
     background-color: green;
     color: green; 
     display: block;
+    margin-top: auto; 
+}
+
+footer.footer {
+  margin-top: auto;   /* ensures footer stays at bottom if page is short */
 }
 
 .footerDesc{
@@ -224,7 +229,6 @@ nav a:hover{
     height: 30vh; 
     width: 90%;
     margin-left: 100px;
-    position: absolute;
     z-index: 1;
 }
 
@@ -232,11 +236,11 @@ nav a:hover{
     background-image: url(images/StudioT12_LinkedInBanner.png);
     background-size: cover;
     background-position: center center; 
-    top: 100px; 
     height: 30vh; 
     width: 90%;
-    position: absolute;
+    
     z-index: 1;
+    margin-top: 10%;    /* pushes it below the fixed header */
     
 }
 
@@ -244,6 +248,7 @@ nav a:hover{
 .wrapper{
     width: 90%; 
     margin: 0 auto;
+    overflow: auto;
 }
 
 
@@ -260,7 +265,7 @@ nav a:hover{
 
 .simple-image{
   display: block;           /* kills inline weirdness */
-  margin: 40px auto;        /* centers horizontally */
+  margin: 40px auto 0;        /* centers horizontally */
   max-width: 100%;          /* responsive */
   height: auto;     
 }
