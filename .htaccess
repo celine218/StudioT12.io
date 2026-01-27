@@ -8,6 +8,6 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 
 RewriteRule ^(.*)$ $1.html [NC,L]
 
-RewriteCond     %{REQUEST_URI}      ^.*/index\.html$
-RewriteRule     ^(.*/)index.html$   $1      [R,L]
+RewriteCond     %{REQUEST_URI}      ^.*/homepage\.html$
+RewriteRule     ^(.*/)homepage.html$   $1      [R,L]
 

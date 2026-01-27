@@ -235,7 +235,6 @@ nav a:hover{
     top: 100px; 
     height: 30vh; 
     width: 90%;
-    margin-left: 100px;
     position: absolute;
     z-index: 1;
     
@@ -260,5 +259,8 @@ nav a:hover{
 }
 
 .simple-image{
-    position: center; 
+  display: block;           /* kills inline weirdness */
+  margin: 40px auto;        /* centers horizontally */
+  max-width: 100%;          /* responsive */
+  height: auto;     
 }

@@ -6,66 +6,8 @@
 }
 
 
-.slow {
-    animation-delay: .25s;
-}
-.slow2{ 
-    animation-delay: 1s;
-}
-
-.logo {
-    margin:30px;
-} 
-
-.round-corners { 
-    border-radius: 50px;
-}
-
-.small_paragraph {
-    font-size: 30;
-}
-
-.store_button {
-    margin: 30px;
-    display: block; 
-    margin-left: auto;
-    margin-right: auto; 
-    width: 0%;
-    height: 20%;
-    font-size: 20px;
-} 
-
-    
-
-.white_text {
-    color:white;
-    font-size: 30px; 
-}
-
-.white_text_small {
-    color:white;
-    font-size: 20px; 
-}
-
-.black_text 
-{
-    color:black;
-}
 
 
-.logo{
-    width: 30%; 
-    float: left; 
-    text-align: left; 
-    line-height: auto; 
-}
-
-.logo a{ 
-    text-decoration: none; 
-    font-size: 30px; 
-    color: white;
-    letter-spacing: 3px;  
-}
 
 nav {
     float: right; 
@@ -74,23 +16,6 @@ nav {
 
 .nav-item.nav-link {
   opacity: 0;
-}
-
-nav a{ 
-    text-decoration: none; 
-    letter-spacing: 3px; 
-    font-size: 20px; 
-    color: white;
-    padding: 40px 10px; 
-    margin: 0 1px;
-    font-weight: 500;
-    
-}
-
-nav a:hover{
-    background: white; 
-    color: black; 
-    font-weight: 700;
 }
 
 
@@ -278,7 +203,6 @@ mask-image: radial-gradient(
     text-align: left;
     padding: 0px; 
     margin: 0px;
-    float: left;
     position: absolute;
     margin-left: 150px;
     opacity: 70%;
@@ -287,7 +211,6 @@ mask-image: radial-gradient(
 
 .MainBlogImageLeft 
 {
-    float: center; 
     height: 300px; 
     Width: 300px; 
     display: inline-block;
@@ -296,7 +219,6 @@ mask-image: radial-gradient(
 
 .MainBlogImageRight
 {
-    float: left; 
     height: 600px; 
     Width: 600px; 
     padding-left: 200px;
@@ -309,148 +231,6 @@ mask-image: radial-gradient(
 {
     padding-top: 200px; 
 }
-
-/*.container 
-{
-    display:grid; 
-    grid-template-rows: 100px 100px 100px 100px 100px 100px;
-    grid-template-columns 100px 100px 100px 100px 100px 100px;
-    
-}*/
-
-.item {
-  padding: 0.5em;
-  background-color: #fb7185;
-  font-weight: 700;
-  color: var(--clr-light);
-  border: 10px solid var(--clr-accent);
-}
-
-.item1 
-{
-    grid-row: 1; 
-    grid-column: 1; 
-}
-
-.item2 
-{
-    grid-row: 1; 
-    grid-column: 2; 
-}
-
-.item3 
-{
-    grid-row: 1; 
-    grid-column: 3; 
-}
-    
-
-.buttonGame 
-{
-   display: block;
-    position: relative;
-    padding: 15px 15px;
-    float: left;
-    margin-left: 300px;
-    margin-right: auto;
-    width: 15%;
-    height: 5%;
-    font-size: 30px;
-    border-radius: 20px;
-    background-color: green;
-    color: white;
-    text-decoration: none;
-}
-
-.buttonGame:hover
-{
-    display: block;
-    position: relative;
-    float: left;
-    margin-left: 300px;
-    margin-right: auto;
-    width: 15%;
-    height: 5%;
-    font-size: 30px;
-    border-radius: 20px;
-    text-align: center;
-    color: black;
-    background-color: limegreen; 
-    text-decoration: none;
-}
-
-.buttonCenter 
-{
-   display: inline-block;
-    position: relative;
-    padding: 15px 15px;
-    float: center;
-    width: 15%;
-    height: 5%;
-    font-size: 30px;
-    border-radius: 20px;
-    background-color: green;
-    color: white;
-    text-decoration: none;
-}
-
-.buttonCenter:hover
-{
-    display: inline-block;
-    position: relative;
-    float: center;
-    margin-right: auto;
-    width: 15%;
-    height: 5%;
-    font-size: 30px;
-    border-radius: 20px;
-    text-align: center;
-    color: black;
-    background-color: limegreen; 
-    text-decoration: none;
-}
-
-
-.footer{
-    background-color: green;
-    color: green; 
-    display: block;
-}
-
-.footerDesc{
-    float: left;
-    font-size: 20px; 
-    padding: 20px; 
-    position: relative;
-    display: inline-block; 
-    color: white; 
-    
-}
-
-.footerRight{
-    float: right;
-    color: white;
-    font-size: 20px; 
-    padding: 30px; 
-    position: relative;
-    display: inline-block; 
-}
-
-.fa-instagram{
-    color: white; 
-    float: center;
-    position: relative;
-    display: inline-block;
-}
-
-
-form { 
-margin: 0 auto; 
-margin-top: 200px; 
-width:250px;
-}
-
-
 
 
 

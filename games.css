@@ -254,7 +254,6 @@ h5 {
     height:100px; 
     width:100px; 
     border-radius:100%; 
-    float: left;
     padding:0;
      margin:0;
     margin-left: 30px;
@@ -303,7 +302,6 @@ h5 {
 
 .BlogImageLeft 
 {
-    float: center; 
     height: 300px; 
     Width: 300px; 
     display: inline-block;
@@ -352,7 +350,6 @@ h5 {
     text-align: left;
     padding: 0px; 
     margin: 0px;
-    float: left;
     position: absolute;
     margin-left: 150px;
     opacity: 70%;
@@ -361,7 +358,6 @@ h5 {
 
 .MainBlogImageLeft 
 {
-    float: center; 
     height: 300px; 
     Width: 300px; 
     display: inline-block;
@@ -370,7 +366,6 @@ h5 {
 
 .MainBlogImageRight
 {
-    float: left; 
     height: 600px; 
     Width: 600px; 
     padding-left: 200px;
@@ -425,7 +420,6 @@ h5 {
 
 .fa-instagram{
     color: white; 
-    float: center;
     position: relative;
     display: inline-block;
 }
