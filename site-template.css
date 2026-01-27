@@ -186,7 +186,6 @@ nav a:hover{
     position: relative; 
     background: black;
     padding-top: 5%;
-    min-height: calc(100vh - 100px - 120px);
 }
 
 .content-area h2{ 
