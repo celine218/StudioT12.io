@@ -41,9 +41,6 @@ h2 {
     position: relative; 
     background: black;
     padding-top: 5%;
-    height:auto; 
-    overflow: auto; 
-    display:flow-root; 
 }
 
 .content-area h2{ 
